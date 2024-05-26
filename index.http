@@ -1,0 +1,21 @@
+
+
+POST http://localhost:5000/signup 
+Content-Type: application/json 
+
+{
+    "username": "johnsDoe",
+    "password": "passsword123"
+}
+
+###
+POST http://localhost:5000/login 
+Content-Type: application/json 
+
+{
+    "username": "johnDoe",
+    "password": "password123"
+}
+### 
+GET http://localhost:5000/user
+x-auth-token:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUyYTc0OTM2ODRjNTczZGY0MzgzMDkiLCJpYXQiOjE3MTY2OTMyNTcsImV4cCI6MTcxNjY5Njg1N30.NXIYBDCbeupWR_eS5GnTgQvFZqfqrEOJ4rtAJxnBgs0
